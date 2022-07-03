@@ -13,7 +13,7 @@ const db = knex({
   version: '7.2',
   connection: {
     connectionString: process.env.DATABASE_URL,
-    ssl: true
+    ssl: true,
   }
 });
 
