@@ -19,8 +19,8 @@ const db = knex({
 
 const app = express();
 
-app.use(express.json());
 app.use(cors());
+app.use(express.json());
 
 	// res.send(database.users);
 	 // You can replace the response here with whatever you want such as res.send('success') since we         
